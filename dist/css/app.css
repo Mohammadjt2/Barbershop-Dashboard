@@ -16245,3 +16245,33 @@ mark.p-1.bg-yellow-200 {
 .svg-icon-close{
     width: 26px;
 }
+.justify-between{
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.w-100{
+    width: 100%;
+}
+input[type="file"] {
+    display: none;
+  }
+.custom-file{
+    text-align: center;
+    font-weight: 900;
+    border: 2px solid #b6d8ee;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0 10px 10px;
+}
+.custom-file-label{
+    cursor: pointer;
+}
+.btn-setting {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   gap: 5px;
+   margin-left: 10px;
+}

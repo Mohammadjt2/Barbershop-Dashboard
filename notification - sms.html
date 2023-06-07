@@ -1532,6 +1532,7 @@
               </h2>
               <div class="flex items-center sm:mr-auto mt-3 sm:mt-0 gap-2">
                   <button class="btn box flex items-center bg-theme-1 dark:text-gray-300" style="color: #ffffff;">همه</button>
+                  <button class="btn box flex items-center text-gray-700 dark:text-gray-300">مشتری</button>
                   <button class="btn box flex items-center text-gray-700 dark:text-gray-300">سالن</button>
                   <button class="btn box flex items-center text-gray-700 dark:text-gray-300">استایلیست</button>
               </div>
@@ -1541,40 +1542,23 @@
                   <thead>
                       <tr>
                               <th class="whitespace-nowrap">ردیف</th>
-                              <th class="whitespace-nowrap">شماره رزرو</th>
-                              <th class="whitespace-nowrap">نام سالن</th>
-                              <th class="whitespace-nowrap">نام مشتری</th>
-                              <th class="text-center whitespace-nowrap">گروه</th>
-                              <th class="text-center whitespace-nowrap">نام خدمت</th>
-                              <th class="text-center whitespace-nowrap">زمان رزرو</th>
-                              <th class="text-center whitespace-nowrap">تاریخ مراجعه</th>
-                              <th class="text-center whitespace-nowrap">ساعت مراجعه</th>
-                              <th class="text-center whitespace-nowrap">استایلیست</th>
-                              <th class="text-center whitespace-nowrap">مبلغ</th>
-                              <th class="text-center whitespace-nowrap">بیعانه</th>
-                              <th class="whitespace-nowrap">اقدام</th>
+                              <th class="whitespace-nowrap">نام دریافت کننده</th>
+                              <th class="whitespace-nowrap">متن</th>
+                              <th class="text-center whitespace-nowrap">تاریخ ارسال</th>
+                              <th class="text-center whitespace-nowrap">ساعت ارسال</th>
+                              <th class="text-center whitespace-nowrap">وضعیت</th>
                       </tr>
                   </thead>
-                                    <tbody class="font-bold">
+                    <tbody class="font-bold">
                       <tr class="intro-x">
                         <td>1</td>
-                        <td>0018</td>
-                        <td>زیبایی هلیا</td>
+                        <td>آمنه بهادریان</td>
                           <td>
-                              <div class="flex gap-2">
-                                  <div class="w-10 h-10">
-                                      <span>آمنه بهادری</span>
+                              <div class="w-auto h-10 flex items-center">
+                                  <div>
+                                      <span class="">یک متن ساده که برای مشتری/مدیر سالن/استایلیست ارسال شده است</span>
                                   </div>
                               </div>
-                          </td>
-                          <td class="text-center whitespace-nowrap">
-                            <a href="" class="font-medium whitespace-nowrap"> ناخن </a> 
-                          </td>
-                          <td class="text-center whitespace-nowrap">
-                            <a href="" class="font-medium whitespace-nowrap"> کاشت ناخن </a> 
-                          </td>
-                          <td class="text-center whitespace-nowrap">
-                            <a href="" class="font-medium whitespace-nowrap"> 21 فروردین 1402 12:05:18 </a> 
                           </td>
                           <td class="text-center whitespace-nowrap">
                             <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
@@ -1585,148 +1569,78 @@
                             <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
                           </td>
                           <td class="text-center whitespace-nowrap">
-                            <a href="" class="font-medium whitespace-nowrap">سارا امینی</a> 
+                            <a href="" class="font-medium whitespace-nowrap">ارسال شده</a> 
                           </td>
-                          <td class="text-center whitespace-nowrap">
-                            <a href="" class="font-medium whitespace-nowrap">2،500،000 ریال</a> 
-                          </td>
-                          <td class="text-center whitespace-nowrap">
-                            <a href="" class="font-medium whitespace-nowrap">1،000،000 ریال</a> 
-                          </td>
-                          <td class="text-center whitespace-nowrap">
-                            <a href="" class="font-medium whitespace-nowrap">
-                              <img src="./dist/images/close.jpg" alt="close" class="svg-icon-close">
-                            </a> 
                           </td>
                       </tr>
                       <tr class="intro-x">
-                        <td>2</td>
-                        <td>0018</td>
-                        <td>زیبایی هلیا</td>
-                        <td>
-                          <div class="flex gap-2">
-                              <div class="w-10 h-10">
-                                  <span>آمنه بهادری</span>
-                              </div>
-                          </div>
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap"> ناخن </a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap"> کاشت ناخن </a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap"> 21 فروردین 1402 12:05:18 </a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
-                      </td>
-                          <td class="text-center font-bold">
-                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
-                            <span> تا </span>
-                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
-                          </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">سارا امینی</a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">2،500،000 ریال</a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">1،000،000 ریال</a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">
-                          <img src="./dist/images/close.jpg" alt="close" class="svg-icon-close">
-                        </a> 
-                      </td>
-                      </tr>
-                      <tr class="intro-x">
-                        <td>3</td>
-                        <td>0018</td>
-                        <td>زیبایی هلیا</td>
-                        <td>
-                          <div class="flex gap-2">
-                              <div class="w-10 h-10">
-                                  <span>آمنه بهادری</span>
-                              </div>
-                          </div>
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap"> ابرو </a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap"> کاشت ابرو </a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap"> 21 فروردین 1402 12:05:18 </a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
-                      </td>
-                          <td class="text-center font-bold">
-                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
-                            <span> تا </span>
-                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
-                          </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">سارا امینی</a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">2،500،000 ریال</a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">1،000،000 ریال</a> 
-                      </td>
-                      <td class="text-center whitespace-nowrap">
-                        <a href="" class="font-medium whitespace-nowrap">
-                          <img src="./dist/images/close.jpg" alt="close" class="svg-icon-close">
-                        </a> 
-                      </td>
-                      </tr>
-                      <tr class="intro-x">
-                          <td>4</td>
-                          <td>0018</td>
-                          <td>زیبایی هلیا</td>
+                        <td>1</td>
+                        <td>آمنه بهادریان</td>
                           <td>
-                            <div class="flex gap-2">
-                                <div class="w-10 h-10">
-                                    <span>آمنه بهادری</span>
-                                </div>
-                            </div>
-                        </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap"> ابرو </a> 
-                        </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap"> کاشت ابرو </a> 
-                        </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap"> 21 فروردین 1402 12:05:18 </a> 
-                        </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
-                        </td>
+                              <div class="w-auto h-10 flex items-center">
+                                  <div>
+                                      <span class="">یک متن ساده که برای مشتری/مدیر سالن/استایلیست ارسال شده است</span>
+                                  </div>
+                              </div>
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
+                          </td>
                           <td class="text-center font-bold">
                             <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
                             <span> تا </span>
                             <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
                           </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap">سارا امینی</a> 
-                        </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap">2،500،000 ریال</a> 
-                        </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap">1،000،000 ریال</a> 
-                        </td>
-                        <td class="text-center whitespace-nowrap">
-                          <a href="" class="font-medium whitespace-nowrap">
-                            <img src="./dist/images/close.jpg" alt="close" class="svg-icon-close">
-                          </a> 
-                        </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap">ارسال شده</a> 
+                          </td>
+                          </td>
+                      </tr>
+                      <tr class="intro-x">
+                        <td>1</td>
+                        <td>آمنه بهادریان</td>
+                          <td>
+                              <div class="w-auto h-10 flex items-center">
+                                  <div>
+                                      <span class="">یک متن ساده که برای مشتری/مدیر سالن/استایلیست ارسال شده است</span>
+                                  </div>
+                              </div>
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
+                          </td>
+                          <td class="text-center font-bold">
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
+                            <span> تا </span>
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap">ارسال شده</a> 
+                          </td>
+                          </td>
+                      </tr>
+                      <tr class="intro-x">
+                        <td>1</td>
+                        <td>آمنه بهادریان</td>
+                          <td>
+                              <div class="w-auto h-10 flex items-center">
+                                  <div>
+                                      <span class="">یک متن ساده که برای مشتری/مدیر سالن/استایلیست ارسال شده است</span>
+                                  </div>
+                              </div>
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
+                          </td>
+                          <td class="text-center font-bold">
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
+                            <span> تا </span>
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap">ارسال شده</a> 
+                          </td>
+                          </td>
                       </tr>
                   </tbody>
               </table>
