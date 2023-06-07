@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+
+<html lang="en" class="light">
+  <!-- BEGIN: Head -->
+  <head>
+    <meta charset="utf-8" />
+    <link href="dist/images/logo.svg" rel="shortcut icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Rubick admin is super flexible, powerful, clean & modern responsive tailwind admin template with unlimited possibilities."
+    />
+    <meta
+      name="keywords"
+      content="admin template, Rubick Admin Template, dashboard template, flat admin template, responsive admin template, web app"
+    />
+    <meta name="author" content="LEFT4CODE" />
+    <title>داشبرد - روبیک - قالب مدیریتی تیلوند اچ تی ام ال</title>
+    <!-- BEGIN: CSS Assets-->
+    <link rel="stylesheet" href="dist/css/app.css" />
+    <!-- END: CSS Assets-->
+  </head>
+  <!-- END: Head -->
+  <body class="main">
+    <!-- BEGIN: Mobile Menu -->
+    <div class="mobile-menu md:hidden">
+      <div class="mobile-menu-bar">
+        <a href="#" class="flex ml-auto">
+          <img
+            alt="Rubick Tailwind HTML Admin Template"
+            class="w-6"
+            src="dist/images/logo.svg"
+          />
+        </a>
+        <a href="javascript:;" id="mobile-menu-toggler">
+          <i
+            data-feather="bar-chart-2"
+            class="w-8 h-8 text-white transform -rotate-90"
+          ></i>
+        </a>
+      </div>
+      <ul class="border-t border-theme-29 py-5 hidden" style="color: #ffffff">
+        <li>
+          <a
+            href="index.html"
+            class="side-menu side-menu--active flex justify-start items-center gap-2 p-2"
+          >
+            <div class="side-menu__icon"><i data-feather="home"></i></div>
+            <div class="side-menu__title">
+              دشبرد
+              <div class="side-menu__sub-icon transform rotate-180"></div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">مشتری</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="customer.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">لیست مشتریان</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="authentication.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">احراز هویت</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="reservation.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">رزرو</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="transaction.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">تراکنش</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="wallet.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">کیف پول</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="discount-code.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">کد تخفیف</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="entry-and-exit-records.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">سوابق ورود و خروج</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">سالن</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="salon.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">لیست سالن ها</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="authentication - salon.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">احراز هویت</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="reservation - salon.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">رزرو</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="transaction - salon.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">تراکنش</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="wallet - salon.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">کیف پول</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="discount-code - salon.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">کد تخفیف</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="entry-and-exit-records - salon.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">سوابق ورود و خروج</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">استایلیست</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="stylist.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">لیست استایلیست ها</div>
+              </a>
+            </li>
+              <a
+                href="authentication - stylist.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">احراز هویت</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="reservation - stylist.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">رزرو</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="transaction - stylist.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">تراکنش</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="wallet - stylist.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">کیف پول</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="discount-code - stylist.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">کد تخفیف</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="entry-and-exit-records - stylist.html"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">سوابق ورود و خروج</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">خدمات</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">دسته بندی</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">خدمات</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">نرخ خدمات</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">تراکنش</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">درگاه پرداخت</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">لیست تراکنش ها</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">مغایرت</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">کیف پول</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">سوابق تراکنش</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">مغایرت</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">رزرو</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">رزرو شده</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">انجام شده</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">لغو شده</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">تخفیف</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">خودکار</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">مناسبتی</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">کمپین</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">کمپین</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">سالیانه</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a
+            href="javascript:;"
+            class="side-menu flex justify-between items-center gap-2 p-2"
+          >
+            <div class="flex justify-start items-center gap-2">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">پیام رسانی</div>
+            </div>
+            <div class="side-menu__sub-icon">
+              <i data-feather="chevron-down"></i>
+            </div>
+          </a>
+          <ul>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">نوتیکیفیشن</div>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                class="side-menu flex justify-start items-center gap-2 p-2"
+              >
+                <div class="side-menu__icon">
+                  <i data-feather="activity"></i>
+                </div>
+                <div class="side-menu__title">پیامک</div>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <hr>
+        <div class="color-w px-2">
+          <h2 class="py-4">تنضیمات مدیریتی</h2>
+          <div class="flex items-center">
+            <div class="flex justify-between items-center gap-2 ml-auto">
+              <span><img alt="Rubick Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg"></span>
+              <span>تنظیمات پایه</span>
+            </div>
+            <a href="#">
+              <div class="bg-theme-9 px-2 py-1 rounded"> وبسایت </div>
+            </a>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!-- END: Mobile Menu -->
+    <div class="flex">
+      <!-- BEGIN: Side Menu -->
+      <nav class="side-nav">
+        <a href="#" class="intro-x flex items-center pr-5 pt-4">
+          <img
+            alt="Rubick Tailwind HTML Admin Template"
+            class="w-6"
+            src="dist/images/logo.svg"
+          />
+          <span class="hidden xl:block text-white text-lg mr-3"
+            >رو<span class="font-medium">بیک</span>
+          </span>
+        </a>
+        <div class="side-nav__devider my-6"></div>
+        <ul>
+          <li>
+            <a href="index.html" class="side-menu side-menu--active">
+              <div class="side-menu__icon"><i data-feather="home"></i></div>
+              <div class="side-menu__title">
+                دشبرد
+                <div class="side-menu__sub-icon transform rotate-180"></div>
+              </div>
+            </a>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                مشتری
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="customer.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">لیست مشتریان</div>
+                </a>
+              </li>
+              <li>
+                <a href="authentication.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">احراز هویت</div>
+                </a>
+              </li>
+              <li>
+                <a href="reservation.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">رزرو</div>
+                </a>
+              </li>
+              <li>
+                <a href="transaction.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">تراکنش</div>
+                </a>
+              </li>
+              <li>
+                <a href="wallet.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">کیف پول</div>
+                </a>
+              </li>
+              <li>
+                <a href="discount-code.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">کد تخفیف</div>
+                </a>
+              </li>
+              <li>
+                <a href="entry-and-exit-records.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">سوابق ورود و خروج</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                سالن
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="salon.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">لیست سالن ها</div>
+                </a>
+              </li>
+              <li>
+                <a href="authentication - salon.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">احراز هویت</div>
+                </a>
+              </li>
+              <li>
+                <a href="reservation - salon.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">رزرو</div>
+                </a>
+              </li>
+              <li>
+                <a href="transaction - salon.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">تراکنش</div>
+                </a>
+              </li>
+              <li>
+                <a href="wallet - salon.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">کیف پول</div>
+                </a>
+              </li>
+              <li>
+                <a href="discount-code - salon.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">کد تخفیف</div>
+                </a>
+              </li>
+              <li>
+                <a href="entry-and-exit-records - salon.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">سوابق ورود و خروج</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                استایلیست
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="stylist.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">لیست استایلیست ها</div>
+                </a>
+              </li>
+              <li>
+                <a href="authentication - stylist.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">احراز هویت</div>
+                </a>
+              </li>
+              <li>
+                <a href="reservation - stylist.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">رزرو</div>
+                </a>
+              </li>
+              <li>
+                <a href="transaction - stylist.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">تراکنش</div>
+                </a>
+              </li>
+              <li>
+                <a href="wallet - stylist.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">کیف پول</div>
+                </a>
+              </li>
+              <li>
+                <a href="discount-code - stylist.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">کد تخفیف</div>
+                </a>
+              </li>
+              <li>
+                <a href="entry-and-exit-records - stylist.html" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">سوابق ورود و خروج</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                خدمات
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">دسته بندی</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">خدمات</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">نرخ خدمات</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                تراکنش
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">درگاه پرداخت</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">لیست تراکنش ها</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">مغایرت</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                کیف پول
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">سوابق تراکنش</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">مغایرت</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                رزرو
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">رزرو شده</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">انجام شده</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">لغو شده</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                تخفیف
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">خودکار</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">مناسبتی</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">کمپین</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                کمپین
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">سالیانه</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="javascript:;" class="side-menu">
+              <div class="side-menu__icon"><i data-feather="box"></i></div>
+              <div class="side-menu__title">
+                پیام رسانی
+                <div class="side-menu__sub-icon">
+                  <i data-feather="chevron-down"></i>
+                </div>
+              </div>
+            </a>
+            <ul>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">نوتیفیکیشن</div>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="side-menu">
+                  <div class="side-menu__icon">
+                    <i data-feather="activity"></i>
+                  </div>
+                  <div class="side-menu__title">پیامک</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <hr>
+        <div class="color-w">
+          <h2 class="py-4">تنضیمات مدیریتی</h2>
+          <div class="flex items-center">
+            <div class="flex justify-between items-center gap-2 ml-auto">
+              <span><img alt="Rubick Tailwind HTML Admin Template" class="w-6" src="dist/images/logo.svg"></span>
+              <span>تنظیمات پایه</span>
+            </div>
+            <a href="#">
+              <div class="bg-theme-9 px-2 py-1 rounded"> وبسایت </div>
+            </a>
+          </div>
+        </div>
+      </nav>
+      <!-- END: Side Menu -->
+      <!-- BEGIN: Content -->
+      <div class="content">
+        <!-- BEGIN: Top Bar -->
+        <div class="top-bar">
+          <!-- BEGIN: Breadcrumb -->
+          <div class="-intro-x breadcrumb ml-auto hidden sm:flex">
+            <a href="">اپلیکیشن</a>
+            <i data-feather="chevron-left" class="breadcrumb__icon"></i>
+            <a href="" class="breadcrumb--active">داشبرد</a>
+          </div>
+          <!-- END: Breadcrumb -->
+          <!-- BEGIN: Search -->
+          <div class="intro-x relative ml-3 sm:ml-6">
+            <div class="search hidden sm:block">
+              <input
+                type="text"
+                class="search__input form-control border-transparent placeholder-theme-13"
+                placeholder="جستجو..."
+              />
+              <i
+                data-feather="search"
+                class="search__icon dark:text-gray-300"
+              ></i>
+            </div>
+            <a class="notification sm:hidden" href="">
+              <i
+                data-feather="search"
+                class="notification__icon dark:text-gray-300"
+              ></i>
+            </a>
+            <div class="search-result">
+              <div class="search-result__content">
+                <div class="search-result__content__title">صفحات</div>
+                <div class="mb-5">
+                  <a href="" class="flex items-center">
+                    <div
+                      class="w-8 h-8 bg-theme-18 text-theme-9 flex items-center justify-center rounded-full"
+                    >
+                      <i class="w-4 h-4" data-feather="inbox"></i>
+                    </div>
+                    <div class="mr-3">تنظیمات ایمیل</div>
+                  </a>
+                  <a href="" class="flex items-center mt-2">
+                    <div
+                      class="w-8 h-8 bg-theme-17 text-theme-11 flex items-center justify-center rounded-full"
+                    >
+                      <i class="w-4 h-4" data-feather="users"></i>
+                    </div>
+                    <div class="mr-3">کاربران و دسترسی ها</div>
+                  </a>
+                  <a href="" class="flex items-center mt-2">
+                    <div
+                      class="w-8 h-8 bg-theme-14 text-theme-10 flex items-center justify-center rounded-full"
+                    >
+                      <i class="w-4 h-4" data-feather="credit-card"></i>
+                    </div>
+                    <div class="mr-3">گزارش تراکنش ها</div>
+                  </a>
+                </div>
+                <div class="search-result__content__title">کاربران</div>
+                <div class="mb-5">
+                  <a href="" class="flex items-center mt-2">
+                    <div class="w-8 h-8 image-fit">
+                      <img
+                        alt="Rubick Tailwind HTML Admin Template"
+                        class="rounded-full"
+                        src="dist/images/profile-5.jpg"
+                      />
+                    </div>
+                    <div class="mr-3">آل پاچینو</div>
+                    <div
+                      class="mr-auto truncate text-gray-600 text-xs text-left"
+                    >
+                      alpacino@left4code.com
+                    </div>
+                  </a>
+                  <a href="" class="flex items-center mt-2">
+                    <div class="w-8 h-8 image-fit">
+                      <img
+                        alt="Rubick Tailwind HTML Admin Template"
+                        class="rounded-full"
+                        src="dist/images/profile-15.jpg"
+                      />
+                    </div>
+                    <div class="mr-3">دنزل واشینگتون</div>
+                    <div
+                      class="mr-auto truncate text-gray-600 text-xs text-left"
+                    >
+                      denzelwashington@left4code.com
+                    </div>
+                  </a>
+                  <a href="" class="flex items-center mt-2">
+                    <div class="w-8 h-8 image-fit">
+                      <img
+                        alt="Rubick Tailwind HTML Admin Template"
+                        class="rounded-full"
+                        src="dist/images/profile-12.jpg"
+                      />
+                    </div>
+                    <div class="mr-3">کوین اسپیسی</div>
+                    <div
+                      class="mr-auto truncate text-gray-600 text-xs text-left"
+                    >
+                      kevinspacey@left4code.com
+                    </div>
+                  </a>
+                  <a href="" class="flex items-center mt-2">
+                    <div class="w-8 h-8 image-fit">
+                      <img
+                        alt="Rubick Tailwind HTML Admin Template"
+                        class="rounded-full"
+                        src="dist/images/profile-7.jpg"
+                      />
+                    </div>
+                    <div class="mr-3">نیکلاس کیج</div>
+                    <div
+                      class="mr-auto truncate text-gray-600 text-xs text-left"
+                    >
+                      nicolascage@left4code.com
+                    </div>
+                  </a>
+                </div>
+                <div class="search-result__content__title">محصولات</div>
+                <a href="" class="flex items-center mt-2">
+                  <div class="w-8 h-8 image-fit">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/preview-15.jpg"
+                    />
+                  </div>
+                  <div class="mr-3">سامسونگ اس بیست اولترا</div>
+                  <div class="mr-auto truncate text-gray-600 text-xs text-left">
+                    گوشی هوشمند و لپتاپ
+                  </div>
+                </a>
+                <a href="" class="flex items-center mt-2">
+                  <div class="w-8 h-8 image-fit">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/preview-7.jpg"
+                    />
+                  </div>
+                  <div class="mr-3">سامسونگ اس بیست اولترا</div>
+                  <div class="mr-auto truncate text-gray-600 text-xs text-left">
+                    گوشی هوشمند و لپتاپ
+                  </div>
+                </a>
+                <a href="" class="flex items-center mt-2">
+                  <div class="w-8 h-8 image-fit">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/preview-10.jpg"
+                    />
+                  </div>
+                  <div class="mr-3">سونی مستر سریز ای‌ناین‌جی</div>
+                  <div class="mr-auto truncate text-gray-600 text-xs text-left">
+                    الکترونیک
+                  </div>
+                </a>
+                <a href="" class="flex items-center mt-2">
+                  <div class="w-8 h-8 image-fit">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/preview-1.jpg"
+                    />
+                  </div>
+                  <div class="mr-3">سامسونگ کیوناین تی‌وی</div>
+                  <div class="mr-auto truncate text-gray-600 text-xs text-left">
+                    الکترونیک
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- END: Search -->
+          <!-- BEGIN: Notifications -->
+          <div class="intro-x dropdown ml-auto sm:ml-6">
+            <div
+              class="dropdown-toggle notification notification--bullet cursor-pointer"
+              role="button"
+              aria-expanded="false"
+            >
+              <i
+                data-feather="bell"
+                class="notification__icon dark:text-gray-300"
+              ></i>
+            </div>
+            <div class="notification-content pt-2 dropdown-menu">
+              <div
+                class="notification-content__box dropdown-menu__content box dark:bg-dark-6"
+              >
+                <div class="notification-content__title">اطلاعیه ها</div>
+                <div class="cursor-pointer relative flex items-center">
+                  <div class="w-12 h-12 flex-none image-fit ml-1">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/profile-5.jpg"
+                    />
+                    <div
+                      class="w-3 h-3 bg-theme-9 absolute left-0 bottom-0 rounded-full border-2 border-white"
+                    ></div>
+                  </div>
+                  <div class="mr-2 overflow-hidden">
+                    <div class="flex items-center">
+                      <a href="javascript:;" class="font-medium truncate ml-5"
+                        >آل پاچینو</a
+                      >
+                      <div
+                        class="text-xs text-gray-500 mr-auto whitespace-nowrap"
+                      >
+                        05:09 عصر
+                      </div>
+                    </div>
+                    <div class="w-full truncate text-gray-600 mt-0.5">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </div>
+                  </div>
+                </div>
+                <div class="cursor-pointer relative flex items-center mt-5">
+                  <div class="w-12 h-12 flex-none image-fit ml-1">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/profile-15.jpg"
+                    />
+                    <div
+                      class="w-3 h-3 bg-theme-9 absolute left-0 bottom-0 rounded-full border-2 border-white"
+                    ></div>
+                  </div>
+                  <div class="mr-2 overflow-hidden">
+                    <div class="flex items-center">
+                      <a href="javascript:;" class="font-medium truncate ml-5"
+                        >دنزل واشینگتون</a
+                      >
+                      <div
+                        class="text-xs text-gray-500 mr-auto whitespace-nowrap"
+                      >
+                        05:09 عصر
+                      </div>
+                    </div>
+                    <div class="w-full truncate text-gray-600 mt-0.5">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </div>
+                  </div>
+                </div>
+                <div class="cursor-pointer relative flex items-center mt-5">
+                  <div class="w-12 h-12 flex-none image-fit ml-1">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/profile-12.jpg"
+                    />
+                    <div
+                      class="w-3 h-3 bg-theme-9 absolute left-0 bottom-0 rounded-full border-2 border-white"
+                    ></div>
+                  </div>
+                  <div class="mr-2 overflow-hidden">
+                    <div class="flex items-center">
+                      <a href="javascript:;" class="font-medium truncate ml-5"
+                        >کوین اسپیسی</a
+                      >
+                      <div
+                        class="text-xs text-gray-500 mr-auto whitespace-nowrap"
+                      >
+                        01:10 صبح
+                      </div>
+                    </div>
+                    <div class="w-full truncate text-gray-600 mt-0.5">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </div>
+                  </div>
+                </div>
+                <div class="cursor-pointer relative flex items-center mt-5">
+                  <div class="w-12 h-12 flex-none image-fit ml-1">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/profile-7.jpg"
+                    />
+                    <div
+                      class="w-3 h-3 bg-theme-9 absolute left-0 bottom-0 rounded-full border-2 border-white"
+                    ></div>
+                  </div>
+                  <div class="mr-2 overflow-hidden">
+                    <div class="flex items-center">
+                      <a href="javascript:;" class="font-medium truncate ml-5"
+                        >نیکلاس کیج</a
+                      >
+                      <div
+                        class="text-xs text-gray-500 mr-auto whitespace-nowrap"
+                      >
+                        05:09 عصر
+                      </div>
+                    </div>
+                    <div class="w-full truncate text-gray-600 mt-0.5">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </div>
+                  </div>
+                </div>
+                <div class="cursor-pointer relative flex items-center mt-5">
+                  <div class="w-12 h-12 flex-none image-fit ml-1">
+                    <img
+                      alt="Rubick Tailwind HTML Admin Template"
+                      class="rounded-full"
+                      src="dist/images/profile-13.jpg"
+                    />
+                    <div
+                      class="w-3 h-3 bg-theme-9 absolute left-0 bottom-0 rounded-full border-2 border-white"
+                    ></div>
+                  </div>
+                  <div class="mr-2 overflow-hidden">
+                    <div class="flex items-center">
+                      <a href="javascript:;" class="font-medium truncate ml-5"
+                        >جانی دپ</a
+                      >
+                      <div
+                        class="text-xs text-gray-500 mr-auto whitespace-nowrap"
+                      >
+                        01:10 صبح
+                      </div>
+                    </div>
+                    <div class="w-full truncate text-gray-600 mt-0.5">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                      و با استفاده از طراحان گرافیک است.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END: Notifications -->
+          <!-- BEGIN: Account Menu -->
+          <div class="intro-x dropdown w-8 h-8">
+            <div
+              class="dropdown-toggle w-8 h-8 rounded-full overflow-hidden shadow-lg image-fit zoom-in"
+              role="button"
+              aria-expanded="false"
+            >
+              <img
+                alt="Rubick Tailwind HTML Admin Template"
+                src="dist/images/profile-2.jpg"
+              />
+            </div>
+            <div class="dropdown-menu w-56">
+              <div
+                class="dropdown-menu__content box bg-theme-26 dark:bg-dark-6 text-white"
+              >
+                <div class="p-4 border-b border-theme-27 dark:border-dark-3">
+                  <div class="font-medium">آل پاچینو</div>
+                  <div class="text-xs text-theme-28 mt-0.5 dark:text-gray-600">
+                    مهندس فرانت اند
+                  </div>
+                </div>
+                <div class="p-2">
+                  <a
+                    href=""
+                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"
+                  >
+                    <i data-feather="user" class="w-4 h-4 ml-2"></i> پروفایل
+                  </a>
+                  <a
+                    href=""
+                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"
+                  >
+                    <i data-feather="edit" class="w-4 h-4 ml-2"></i> افزودن
+                    اکانت
+                  </a>
+                  <a
+                    href=""
+                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"
+                  >
+                    <i data-feather="lock" class="w-4 h-4 ml-2"></i>بازیابی
+                    رمزعبور</a
+                  >
+                  <a
+                    href=""
+                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"
+                  >
+                    <i data-feather="help-circle" class="w-4 h-4 ml-2"></i
+                    >راهنمایی</a
+                  >
+                </div>
+                <div class="p-2 border-t border-theme-27 dark:border-dark-3">
+                  <a
+                    href=""
+                    class="flex items-center block p-2 transition duration-300 ease-in-out hover:bg-theme-1 dark:hover:bg-dark-3 rounded-md"
+                  >
+                    <i data-feather="toggle-right" class="w-4 h-4 ml-2"></i
+                    >خروج</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END: Account Menu -->
+        </div>
+        <!-- END: Top Bar -->
+        <div class="col-span-12 mt-6">
+          <div class="intro-y block sm:flex items-center h-10">
+              <h2 class="text-lg font-medium truncate ml-5">
+                  کیف پول
+              </h2>
+              <div class="flex items-center sm:mr-auto mt-3 sm:mt-0 gap-2">
+                  <button class="btn box flex items-center bg-theme-1 dark:text-gray-300" style="color: #ffffff;">همه</button>
+                  <button class="btn box flex items-center text-gray-700 dark:text-gray-300">برداشت از کیف پول</button>
+                  <button class="btn box flex items-center text-gray-700 dark:text-gray-300">برگشت به حساب</button>
+                  <button class="btn box flex items-center text-gray-700 dark:text-gray-300">شارژ کیف پول</button>
+              </div>
+          </div>
+          <div class="intro-y overflow-auto lg:overflow-visible mt-8 sm:mt-0">
+              <table class="table table-report sm:mt-2">
+                  <thead>
+                      <tr>
+                              <th class="whitespace-nowrap">ردیف</th>
+                              <th class="whitespace-nowrap">ولت</th>
+                              <th class="whitespace-nowrap">مشتری</th>
+                              <th class="text-center whitespace-nowrap">بانک</th>
+                              <th class="text-center whitespace-nowrap">کارت</th>
+                              <th class="text-center whitespace-nowrap">تاریخ</th>
+                              <th class="text-center whitespace-nowrap">ساعت</th>
+                              <th class="text-center whitespace-nowrap">کد سفارش</th>
+                              <th class="text-center whitespace-nowrap">مبلغ</th>
+                              <th class="text-center whitespace-nowrap">شرح</th>
+                              <th class="text-center whitespace-nowrap">کد رهگیری</th>
+                      </tr>
+                  </thead>
+                  <tbody class="font-bold">
+                      <tr class="intro-x">
+                        <td>1</td>
+                        <td>0018</td>
+                          <td>
+                              <div class="flex gap-2">
+                                  <div class="w-10 h-10">
+                                      <span>آمنه بهادری</span>
+                                  </div>
+                              </div>
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap"> ملت </a> 
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap"> 6104-3378-****-2210 </a> 
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
+                          </td>
+                          <td class="text-center font-bold">
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
+                            <span> تا </span>
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap">8789734</a> 
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap">3،500،000 ریال</a> 
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap">شارژ کیف پول</a> 
+                          </td>
+                          <td class="text-center whitespace-nowrap">
+                            <a href="" class="font-medium whitespace-nowrap">1238618361</a> 
+                          </td>
+                      </tr>
+                      <tr class="intro-x">
+                        <td>2</td>
+                        <td>0018</td>
+                        <td>
+                          <div class="flex gap-2">
+                              <div class="w-10 h-10">
+                                  <span>آمنه بهادری</span>
+                              </div>
+                          </div>
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap"> ملت </a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap"> 6104-3378-****-2210 </a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
+                      </td>
+                          <td class="text-center font-bold">
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
+                            <span> تا </span>
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
+                          </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">8789734</a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">3،500،000 ریال</a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">شارژ کیف پول</a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">1238618361</a> 
+                      </td>
+                      </tr>
+                      <tr class="intro-x">
+                        <td>3</td>
+                        <td>0018</td>
+                        <td>
+                          <div class="flex gap-2">
+                              <div class="w-10 h-10">
+                                  <span>آمنه بهادری</span>
+                              </div>
+                          </div>
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap"> ملت </a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap"> 6104-3378-****-2210 </a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
+                      </td>
+                          <td class="text-center font-bold">
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
+                            <span> تا </span>
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
+                          </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">8789734</a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">3،500،000 ریال</a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">شارژ کیف پول</a> 
+                      </td>
+                      <td class="text-center whitespace-nowrap">
+                        <a href="" class="font-medium whitespace-nowrap">1238618361</a> 
+                      </td>
+                      </tr>
+                      <tr class="intro-x">
+                          <td>4</td>
+                          <td>0018</td>
+                          <td>
+                            <div class="flex gap-2">
+                                <div class="w-10 h-10">
+                                    <span>آمنه بهادری</span>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="text-center whitespace-nowrap">
+                          <a href="" class="font-medium whitespace-nowrap"> ملت </a> 
+                        </td>
+                        <td class="text-center whitespace-nowrap">
+                          <a href="" class="font-medium whitespace-nowrap"> 6104-3378-****-2210 </a> 
+                        </td>
+                        <td class="text-center whitespace-nowrap">
+                          <a href="" class="font-medium whitespace-nowrap bg-gray-300 p-1 rounded"> 25 فروردین 1402 </a> 
+                        </td>
+                          <td class="text-center font-bold">
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">12:30</span>
+                            <span> تا </span>
+                            <span class="bg-theme-9 p-1 rounded-md" style="color: #ffffff;">13:30</span>
+                          </td>
+                        <td class="text-center whitespace-nowrap">
+                          <a href="" class="font-medium whitespace-nowrap">8789734</a> 
+                        </td>
+                        <td class="text-center whitespace-nowrap">
+                          <a href="" class="font-medium whitespace-nowrap">3،500،000 ریال</a> 
+                        </td>
+                        <td class="text-center whitespace-nowrap">
+                          <a href="" class="font-medium whitespace-nowrap">شارژ کیف پول</a> 
+                        </td>
+                        <td class="text-center whitespace-nowrap">
+                          <a href="" class="font-medium whitespace-nowrap">1238618361</a> 
+                        </td>
+                      </tr>
+                  </tbody>
+              </table>
+          </div>
+          <div class="intro-y flex flex-wrap sm:flex-row sm:flex-nowrap items-center mt-3">
+              <ul class="pagination">
+                  <li>
+                      <a class="pagination__link" href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-right w-4 h-4"><polyline points="13 17 18 12 13 7"></polyline><polyline points="6 17 11 12 6 7"></polyline></svg> </a>
+                  </li>
+                  <li>
+                      <a class="pagination__link" href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right w-4 h-4"><polyline points="9 18 15 12 9 6"></polyline></svg> </a>
+                  </li>
+                  <li> <a class="pagination__link" href="">...</a> </li>
+                  <li> <a class="pagination__link" href="">1</a> </li>
+                  <li> <a class="pagination__link pagination__link--active" href="">2</a> </li>
+                  <li> <a class="pagination__link" href="">3</a> </li>
+                  <li> <a class="pagination__link" href="">...</a> </li>
+                  <li>
+                      <a class="pagination__link" href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left w-4 h-4"><polyline points="15 18 9 12 15 6"></polyline></svg> </a>
+                  </li>
+                  <li>
+                      <a class="pagination__link" href=""> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-left w-4 h-4"><polyline points="11 17 6 12 11 7"></polyline><polyline points="18 17 13 12 18 7"></polyline></svg> </a>
+                  </li>
+              </ul>
+              <select class="w-20 form-select box mt-3 sm:mt-0">
+                  <option>10</option>
+                  <option>25</option>
+                  <option>35</option>
+                  <option>50</option>
+              </select>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!-- END: Content -->
+    <!-- BEGIN: Dark Mode Switcher-->
+    <div
+      data-url="side-menu-dark-dashboard-overview-1.html"
+      class="dark-mode-switcher cursor-pointer shadow-md fixed bottom-0 left-0 box dark:bg-dark-2 border rounded-full w-40 h-12 flex items-center justify-center z-50 mb-10 ml-10"
+    >
+      <div class="ml-4 text-gray-700 dark:text-gray-300">حالت تیره</div>
+      <div class="dark-mode-switcher__toggle border"></div>
+    </div>
+    <!-- END: Dark Mode Switcher-->
+    <!-- BEGIN: JS Assets-->
+        <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=["your-google-map-api"]&libraries=places"></script>
+        <script src="dist/js/app.js"></script>
+    <!-- END: JS Assets-->
+  </body>
+</html>
